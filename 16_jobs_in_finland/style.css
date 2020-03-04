@@ -1,0 +1,208 @@
+:root {
+  --primary-color: #002ea1;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans";
+  font-size: 24px;
+}
+header {
+  background-color: white;
+  height: 110px;
+}
+.logo {
+  color: var(--primary-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-left: 50px;
+}
+.work-link {
+  color: var(--primary-color);
+  font-size: 12px;
+  text-decoration: none;
+  float: right;
+}
+.work-link:hover {
+  text-decoration: underline;
+}
+#finland {
+  /* Change this? Why padding is not working for word finland after <br>? */
+  margin-left: 50px;
+}
+
+.nav {
+  background-color: var(--primary-color);
+  font-size: 16px;
+}
+.nav li {
+  display: inline-block;
+  margin: 10px;
+}
+.nav a,
+.nav-item {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px;
+}
+.nav a:hover {
+  border-bottom: 3px solid white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 0px;
+  z-index: 1;
+}
+.dropdown-content li {
+  padding: 0 16px;
+  min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content li:hover {
+  background-color: lightgray;
+}
+.fa-search {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.right {
+  float: right;
+  padding: 5px 20px;
+}
+
+/* hero banner */
+.hero-banner {
+  height: 25rem;
+  background-image: url("https://source.unsplash.com/5fNmWej4tAA/1600x900");
+  background-size: 100%;
+  color: white;
+  text-transform: uppercase;
+}
+.hero-banner-text {
+  width: 50%;
+  margin: auto;
+  padding-top: 5rem;
+}
+.overlay {
+  width: 100%;
+  height: 25rem;
+  background-color: rgba(0, 46, 161, 0.5);
+  z-index: 2;
+}
+.categories,
+.regions {
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-gap: 1%;
+}
+h2 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 48px;
+  margin: 0 0 15px;
+}
+.category-text,
+.region-text {
+  grid-column: span 4;
+  margin: 50px 0;
+}
+.button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  margin: 15px 0;
+}
+.field {
+  background-color: var(--primary-color);
+  background-size: 100%;
+  min-height: 120px;
+  min-width: 100px;
+  margin: 3% 1%;
+  color: white;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+/* Categories images */
+.academic {
+  background-image: url("https://source.unsplash.com/5fNmWej4tAA/1400x900");
+}
+.engineering {
+  background-image: url("https://source.unsplash.com/m9qMoh-scfE/1400x900");
+}
+.health {
+  background-image: url("https://source.unsplash.com/hIgeoQjS_iE/1400x900");
+}
+.hospitality {
+  background-image: url("https://source.unsplash.com/KoutQHtifo8/1400x900");
+}
+.ict {
+  background-image: url("https://source.unsplash.com/npxXWgQ33ZQ/1400x900");
+}
+.manufacturing {
+  background-image: url("https://source.unsplash.com/-fGqsewtsJY/1400x900");
+}
+.marketing {
+  background-image: url("https://source.unsplash.com/5QgIuuBxKwM/1400x900");
+}
+.project-management {
+  background-image: url("https://source.unsplash.com/Oalh2MojUuk/1400x900");
+}
+.service {
+  background-image: url("https://source.unsplash.com/fMntI8HAAB8/1400x900");
+}
+
+/* Regions images */
+.turku {
+  background-image: url("https://source.unsplash.com/Vk8MqyygNak/1400x900");
+}
+.helsinki {
+  background-image: url("https://source.unsplash.com/I9SWvZ9sO2U/1400x900");
+}
+.espoo {
+  background-image: url("https://source.unsplash.com/iBjO3rbIHtg/1400x900");
+}
+.tampere {
+  background-image: url("https://source.unsplash.com/5zLhWqntDQA/1400x900");
+}
+.oulu {
+  background-image: url("https://source.unsplash.com/SfOHL8UVDxk/1400x900");
+}
+.talent-coastline {
+  background-image: url("https://source.unsplash.com/v6IgcOoeBWA/1400x900");
+}
+.kuopio {
+  background-image: url("https://source.unsplash.com/QRZ6NlAgxsg/1400x900");
+}
+.jyvaskyla {
+  background-image: url("https://source.unsplash.com/6PSslT2Ep4U/1400x900");
+}
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-gap: 1%;
+  padding: 15px 0;
+  font-size: 16px;
+}
