@@ -20,3 +20,15 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// Making webpage responsive
+// Make menu open with click
+
+function menuClick() {
+  var x = document.getElementsByClassName("dropdown-content")[0];
+  if (x.style.display == "none" || x.style.display == "") {
+    x.style.display = "block";
+  } else if (x.style.display == "block") {
+    x.style.display = "none";
+  }
+}
