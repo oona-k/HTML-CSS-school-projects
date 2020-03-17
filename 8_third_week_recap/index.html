@@ -2,12 +2,15 @@
 <html>
   <head>
     <title>8_third_week_recap</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <a href="#"><img id="logo" src="images/logo.png" alt="logo" /></a>
+      <a href="#"><img id="logo" src="images/logo.png" alt="logo"/></a>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#about_us">About Us</a></li>
@@ -19,8 +22,19 @@
         <div class="container">
           <h1>Welcome to our webpage!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in repellendus voluptates illum aliquam nihil molestias harum, qui ad? Dignissimos blanditiis odit cupiditate hic minima ex quisquam eos. Iusto, consectetur. Nulla quibusdam quo laudantium vel ipsum sint voluptatem sequi magni obcaecati et fuga nostrum omnis, placeat quam itaque dicta tempore ipsa vitae dolores accusamus quas vero? Voluptates dicta vero magnam aspernatur nostrum repellendus aperiam, quod autem qui distinctio libero nisi alias at nulla quaerat, atque labore, corporis ducimus ratione id.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in
+            repellendus voluptates illum aliquam nihil molestias harum, qui ad?
+            Dignissimos blanditiis odit cupiditate hic minima ex quisquam eos.
+            Iusto, consectetur. Nulla quibusdam quo laudantium vel ipsum sint
+            voluptatem sequi magni obcaecati et fuga nostrum omnis, placeat quam
+            itaque dicta tempore ipsa vitae dolores accusamus quas vero?
+            Voluptates dicta vero magnam aspernatur nostrum repellendus aperiam,
+            quod autem qui distinctio libero nisi alias at nulla quaerat, atque
+            labore, corporis ducimus ratione id.
           </p>
+          <button type="button" class="my_button" id="read_more_btn">
+            Read more
+          </button>
         </div>
       </section>
       <section id="about_us">
@@ -32,54 +46,67 @@
           perferendis tempore deserunt fuga molestiae? Repellat vitae voluptas
           molestiae quos minus a eius ex sit dolor rem. Quos facilis corrupti
           nisi molestias ab saepe recusandae assumenda quo ad impedit. Esse!
-
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae eligendi nam esse sunt aperiam nulla id tenetur nobis atque maiores, nisi magnam sequi accusamus harum sapiente vel aut, odio repellendus ipsam assumenda laboriosam nostrum! Laborum accusamus id reprehenderit doloremque.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae
+          eligendi nam esse sunt aperiam nulla id tenetur nobis atque maiores,
+          nisi magnam sequi accusamus harum sapiente vel aut, odio repellendus
+          ipsam assumenda laboriosam nostrum! Laborum accusamus id reprehenderit
+          doloremque.
         </p>
       </section>
     </main>
     <footer>
-  <div id="left_side">
-      <h2 id="contact">Contact Us</h2>
-      <form>
-        <div class="form-group">
-          <label for="first_name">First name</label>
-          <input type="text" name="first_name" id="first_name" />
-        </div>
-        <div class="form-group">
-          <label for="last_name">Last name</label>
-          <input type="text" name="last_name" id="last_name" />
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
-        </div>
-        <hr />
-        <h3>Do you want to join with our newsletter?</h3>
-        <div class="form-group">
-          <input type="radio" name="newsletter" value="yes" />Yes<br />
-          <input type="radio" name="newsletter" value="no" />No<br />
-        </div>
-      <hr/>
-        <div class="form-group">
-          <h3>How did you find us?</h3>
+      <div id="left_side">
+        <h2 id="contact">Contact Us</h2>
+        <form>
           <div class="form-group">
-    <input type="checkbox" name="friend" value="friend">Friend told me<br>
-    <input type="checkbox" name="internet" value="internet">From internet<br>
-    <input type="checkbox" name="other" value="other">Other:<br>
-<textarea rows:"4" cols="50" placeholder="How?">
-</textarea>
-        </div>
-        </div>
-        <div class="form-group" >
-<input type="submit" id="send-button" name="send-button" value="SEND"><br>
-        </div>
-      </form>
-    </div>
-    <div id="right_side">
-      <p id="footer_text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officia asperiores explicabo, laboriosam inventore eius reiciendis repudiandae possimus eaque? Nemo doloremque non, fugiat dignissimos accusamus voluptate sequi nobis fugit quaerat.
-      </p>
-    </div>
+            <label for="first_name">First name</label>
+            <input type="text" name="first_name" id="first_name" />
+          </div>
+          <div class="form-group">
+            <label for="last_name">Last name</label>
+            <input type="text" name="last_name" id="last_name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <hr />
+          <h3>Do you want to join with our newsletter?</h3>
+          <div class="form-group">
+            <input type="radio" name="newsletter" value="yes" />Yes<br />
+            <input type="radio" name="newsletter" value="no" />No<br />
+          </div>
+          <hr />
+          <div class="form-group">
+            <h3>How did you find us?</h3>
+            <div class="form-group">
+              <input type="checkbox" name="friend" value="friend" />Friend told
+              me<br />
+              <input type="checkbox" name="internet" value="internet" />From
+              internet<br />
+              <input type="checkbox" name="other" value="other" />Other:<br />
+              <textarea rows="4" cols="50" placeholder="How?"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <input
+              type="submit"
+              class="my_button"
+              id="send-button"
+              name="send-button"
+              value="SEND"
+            /><br />
+          </div>
+        </form>
+      </div>
+      <div id="right_side">
+        <p id="footer_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          officia asperiores explicabo, laboriosam inventore eius reiciendis
+          repudiandae possimus eaque? Nemo doloremque non, fugiat dignissimos
+          accusamus voluptate sequi nobis fugit quaerat.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
