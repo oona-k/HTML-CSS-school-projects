@@ -23,7 +23,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100; 
+  z-index: 100;
 }
 
 a {
@@ -64,13 +64,18 @@ a {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: rgb(94, 92, 92);}
-
+.dropdown:hover .dropbtn {
+  background-color: rgb(94, 92, 92);
+}
 
 /* main */
 #hero-banner {
@@ -139,7 +144,6 @@ h2 {
   margin: 20px 50px;
 }
 
-
 #skills {
   /* height: 50vw; */
   width: 100%;
@@ -167,27 +171,28 @@ h2 {
   font-size: 3rem;
 }
 
-
-   @media screen and (max-width:620px) { 
-  #about-me, #cards, footer {
+@media screen and (max-width: 620px) {
+  #about-me,
+  #cards,
+  footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }  
-   }
+  }
+}
 
 /* footer */
 footer {
   background-color: #333;
-  display: flex; 
+  display: flex;
   color: white;
   padding: 0 20px;
-
 }
 h3 {
   margin: 10px;
 }
-.footer-text, .contact-form {
+.footer-text,
+.contact-form {
   margin: 10px;
   padding: 10px;
 }
@@ -198,10 +203,9 @@ label {
   margin: 10px;
 }
 .send-btn {
- border: none;
- color: white;
+  border: none;
+  color: white;
 }
-
 
 /* @media only screen and (max-width:620px) {
 
