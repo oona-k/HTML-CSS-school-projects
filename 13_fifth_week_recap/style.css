@@ -107,15 +107,11 @@ a {
 #hero-banner a:hover {
   background-color: rgb(70, 130, 180);
 }
-/*  .container {
-  width: 40%;
-  padding: 20px;
-  margin: 20px;
-  position: relative;
-  z-index: 800;
-} */
 
 .container {
+  padding: 80px 30px;
+}
+.hero-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,8 +128,6 @@ h2 {
   /* height: 50vh; */
   width: 100%;
   line-height: 1.5rem;
-
-  padding: 20px;
   display: flex;
 }
 #about-me img {
