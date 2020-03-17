@@ -78,6 +78,27 @@ a {
 }
 
 /* main */
+
+/* Scroll top button  */
+#top-btn {
+  display: none; /* Hidden by default */
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: steelblue; 
+  color: white; 
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#top-btn:hover {
+  background-color: #555; 
+}
 #hero-banner {
   height: 55vh;
   width: 100vw;
@@ -102,7 +123,9 @@ a {
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
-  width: 15%;
+}
+.read-more-btn{
+  width: 10%;
 }
 #hero-banner a:hover {
   background-color: rgb(70, 130, 180);
@@ -223,6 +246,11 @@ label {
 .send-btn {
   border: none;
   color: white;
+  outline: none;
+}
+.send-btn:hover {
+  background-color: royalblue;
+  cursor: pointer;
 }
 
 /* @media only screen and (max-width:620px) {

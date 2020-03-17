@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -18,7 +18,7 @@
       <a href="#">My Portfolio</a>
 
       <div class="dropdown">
-        <button class="dropbtn">Menu</button>
+        <button class="dropbtn">Menu <i class="fas fa-angle-down"></i></button>
         <div class="dropdown-content">
           <a href="#about-me">About me</a>
           <a href="#skills">My skills</a>
@@ -27,6 +27,8 @@
       </div>
     </header>
     <main>
+      <!-- Scroll top button -->
+      <button onclick="topFunction()" id="top-btn" title="Go to top">Back to top <i class="fas fa-angle-up"></i></button>
       <section id="hero-banner">
         <div class="hero-container container">
           <h1>Lorem ipsum</h1>
@@ -35,7 +37,7 @@
             repellendus voluptates illum aliquam nihil molestias harum, qui ad?
             Dignissimos blanditiis odit cupiditate hic minima ex quisquam eos.
           </p>
-          <a class="button" href="#">Read more</a>
+          <a class="button read-more-btn" href="#">Read more</a>
         </div>
       </section>
       <section id="about-me" class="container">
@@ -148,5 +150,6 @@
         </div>
       </form>
     </footer>
+    <script src="scripts.js"></script>
   </body>
 </html>
