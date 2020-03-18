@@ -133,45 +133,48 @@ h2 {
 }
 .field {
   background-color: var(--primary-color);
-  background-size: 100%;
-  min-height: 120px;
-  min-width: 100px;
+   min-height: 200px;
+  /*min-width: 100px; */
   margin: 3% 1%;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: center;
-  /* cursor: pointer; */
+  background-size: 100%;
+}
+.field:hover {
+  text-decoration: underline;
+  box-shadow: inset 0px 0px 54px 24px rgba(0,0,0,0.5);
 }
 
 /* Categories images */
 .academic {
-  background-image: url("https://source.unsplash.com/5fNmWej4tAA/1400x900");
+  background: url("https://source.unsplash.com/5fNmWej4tAA/1400x900") no-repeat;
 }
 .engineering {
-  background-image: url("https://source.unsplash.com/m9qMoh-scfE/1400x900");
+  background: url("https://source.unsplash.com/m9qMoh-scfE/1400x900") no-repeat;
 }
 .health {
-  background-image: url("https://source.unsplash.com/hIgeoQjS_iE/1400x900");
+  background: url("https://source.unsplash.com/hIgeoQjS_iE/1400x900") no-repeat;
 }
 .hospitality {
-  background-image: url("https://source.unsplash.com/KoutQHtifo8/1400x900");
+  background: url("https://source.unsplash.com/KoutQHtifo8/1400x900") no-repeat;
 }
 .ict {
-  background-image: url("https://source.unsplash.com/npxXWgQ33ZQ/1400x900");
+  background: url("https://source.unsplash.com/npxXWgQ33ZQ/1400x900") no-repeat;
 }
 .manufacturing {
-  background-image: url("https://source.unsplash.com/-fGqsewtsJY/1400x900");
+  background: url("https://source.unsplash.com/-fGqsewtsJY/1400x900") no-repeat;
 }
 .marketing {
-  background-image: url("https://source.unsplash.com/5QgIuuBxKwM/1400x900");
+  background: url("https://source.unsplash.com/5QgIuuBxKwM/1400x900") no-repeat;
 }
 .project-management {
-  background-image: url("https://source.unsplash.com/Oalh2MojUuk/1400x900");
+  background: url("https://source.unsplash.com/Oalh2MojUuk/1400x900") no-repeat;
 }
 .service {
-  background-image: url("https://source.unsplash.com/fMntI8HAAB8/1400x900");
+  background: url("https://source.unsplash.com/fMntI8HAAB8/1400x900") no-repeat;
 }
 
 /* Regions images */
@@ -198,6 +201,9 @@ h2 {
 }
 .jyvaskyla {
   background-image: url("https://source.unsplash.com/6PSslT2Ep4U/1400x900");
+}
+.field {
+  background-size: 100%;
 }
 footer {
   background-color: var(--primary-color);
